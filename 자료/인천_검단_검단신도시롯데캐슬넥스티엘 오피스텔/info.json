@@ -1,0 +1,518 @@
+{
+ "name": "검단신도시롯데캐슬넥스티엘 오피스텔",
+ "notice": "블록마다 같은 타입명(84OA·119OA 등)이 따로 있어, 타입 이름 앞에 블록을 붙였습니다",
+ "facts": [
+  {
+   "label": "구성",
+   "value": "C9-1 BL · RC1 BL · C1 BL (넥스티엘 II)"
+  },
+  {
+   "label": "위치",
+   "value": "인천시 서구 원당동 1059, 1059-1,2 (검단신도시 C1블록)"
+  },
+  {
+   "label": "자료",
+   "value": "아르떼 제공 2026.07.23"
+  }
+ ],
+ "features": [
+  {
+   "title": "블록·타입 구성",
+   "text": "C9-1 BL: 97OA, 119OA, 119OB\nRC1 BL: 84OA (40실)\nC1 BL (넥스티엘 II): 84OA 54실, 84OB 10실, 99OA 72실, 99OB 36실, 119OA 36실, 119OB 36실, 119OC 36실, 119OD 36실, 119OE 36실\n※ 84OA와 119OA·119OB는 블록마다 따로 있어 타입 이름 앞에 블록을 붙였습니다"
+  },
+  {
+   "title": "자료 안내",
+   "text": "2026.02.04 아파트 스펙 파일에도 오피스텔 도면이 있었지만, 이 자료(2026.07.23)가 더 최신이라 이쪽만 수록했습니다"
+  },
+  {
+   "title": "시공 안내",
+   "text": "스위치 연결을 위해 별도 타공이 필요할 수 있으며, 공스피커로 마감될 수도 있음\n욕실 휴젠트 여부는 기사님이 현장에서 파악해 센서 위치 적용\n우물은 직각·라운드 두 가지 중 선택 가능 — 라운드 우물은 추가금 발생\n우물천장 간접조명 및 커튼박스는 별도 추가\n스위치: 전자식스위치 + 리모컨 / 침실 무선리모컨 1구(3채널)"
+  },
+  {
+   "title": "실링팬 (루씨에어 레이더 3)",
+   "text": "색상: 화이트 / 규격: 가로 132cm × 높이 19cm\n실내 온도 불균형 해소 → 냉난방비 절감\n최고 6단계 작동 시 36.4dB 저소음\n시공 구성: 설치 + 보강 + 우물 천장 안 실크 도배, 우물조명 2줄(전구색 + 주백색)\n우물천장 안 매입등: 3인치 주백색 확산형"
+  },
+  {
+   "title": "우물천장 몰딩 옵션",
+   "text": "직각 목공몰딩 / 주백 + 전구 이중조명\n직각 목공 무몰딩 도배 / 주백 + 전구 이중조명\n라운드 목공몰딩 / 주백 + 전구 이중조명\n라운드 목공 무몰딩 도배 / 주백 + 전구 이중조명"
+  }
+ ],
+ "types": [
+  {
+   "name": "C9-1 97OA",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C9-1_97OA_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 1
+    },
+    {
+     "file": "평면도/C9-1_97OA_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 2
+    },
+    {
+     "file": "평면도/C9-1_97OA_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 3
+    }
+   ]
+  },
+  {
+   "name": "C9-1 119OA",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C9-1_119OA_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 4
+    },
+    {
+     "file": "평면도/C9-1_119OA_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 5
+    },
+    {
+     "file": "평면도/C9-1_119OA_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 6
+    }
+   ]
+  },
+  {
+   "name": "C9-1 119OB",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C9-1_119OB_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 7
+    },
+    {
+     "file": "평면도/C9-1_119OB_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 8
+    },
+    {
+     "file": "평면도/C9-1_119OB_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 9
+    }
+   ]
+  },
+  {
+   "name": "RC1 84OA",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/RC1_84OA_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 10
+    },
+    {
+     "file": "평면도/RC1_84OA_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 11
+    },
+    {
+     "file": "평면도/RC1_84OA_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 12
+    }
+   ]
+  },
+  {
+   "name": "C1 84OA",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C1_84OA_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 13
+    },
+    {
+     "file": "평면도/C1_84OA_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 14
+    },
+    {
+     "file": "평면도/C1_84OA_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 15
+    }
+   ]
+  },
+  {
+   "name": "C1 84OB",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C1_84OB_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 16
+    },
+    {
+     "file": "평면도/C1_84OB_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 17
+    },
+    {
+     "file": "평면도/C1_84OB_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 18
+    }
+   ]
+  },
+  {
+   "name": "C1 99OA",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C1_99OA_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 19
+    },
+    {
+     "file": "평면도/C1_99OA_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 20
+    },
+    {
+     "file": "평면도/C1_99OA_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 21
+    }
+   ]
+  },
+  {
+   "name": "C1 99OB",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C1_99OB_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 22
+    },
+    {
+     "file": "평면도/C1_99OB_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 23
+    },
+    {
+     "file": "평면도/C1_99OB_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 24
+    }
+   ]
+  },
+  {
+   "name": "C1 119OA",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C1_119OA_01_간접A_간접센서_SET_①.webp",
+     "label": "간접A / 간접센서 SET ①",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 25
+    },
+    {
+     "file": "평면도/C1_119OA_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 26
+    },
+    {
+     "file": "평면도/C1_119OA_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 27
+    },
+    {
+     "file": "평면도/C1_119OA_04_간접A_간접센서_SET_②.webp",
+     "label": "간접A / 간접센서 SET ②",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 28
+    },
+    {
+     "file": "평면도/C1_119OA_05_간접A_간접센서_SET_③.webp",
+     "label": "간접A / 간접센서 SET ③",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 29
+    }
+   ]
+  },
+  {
+   "name": "C1 119OB",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C1_119OB_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 30
+    },
+    {
+     "file": "평면도/C1_119OB_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 31
+    },
+    {
+     "file": "평면도/C1_119OB_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 32
+    }
+   ]
+  },
+  {
+   "name": "C1 119OC",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C1_119OC_01_간접A_간접센서_SET_①.webp",
+     "label": "간접A / 간접센서 SET ①",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 33
+    },
+    {
+     "file": "평면도/C1_119OC_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 34
+    },
+    {
+     "file": "평면도/C1_119OC_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 35
+    },
+    {
+     "file": "평면도/C1_119OC_04_간접A_간접센서_SET_②.webp",
+     "label": "간접A / 간접센서 SET ②",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 36
+    },
+    {
+     "file": "평면도/C1_119OC_05_간접A_간접센서_SET_③.webp",
+     "label": "간접A / 간접센서 SET ③",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 37
+    },
+    {
+     "file": "평면도/C1_119OC_06_간접A_간접센서_SET_④.webp",
+     "label": "간접A / 간접센서 SET ④",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 38
+    }
+   ]
+  },
+  {
+   "name": "C1 119OD",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C1_119OD_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 39
+    },
+    {
+     "file": "평면도/C1_119OD_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 40
+    },
+    {
+     "file": "평면도/C1_119OD_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 41
+    }
+   ]
+  },
+  {
+   "name": "C1 119OE",
+   "households": 0,
+   "plans": [
+    {
+     "file": "평면도/C1_119OE_01_간접A_간접센서_SET_①.webp",
+     "label": "간접A / 간접센서 SET ①",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 42
+    },
+    {
+     "file": "평면도/C1_119OE_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 43
+    },
+    {
+     "file": "평면도/C1_119OE_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 44
+    },
+    {
+     "file": "평면도/C1_119OE_04_간접A_간접센서_SET_②.webp",
+     "label": "간접A / 간접센서 SET ②",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx2.pptx",
+     "slide": 45
+    }
+   ]
+  }
+ ],
+ "images": [
+  {
+   "file": "이미지/01_단지·동·호수_배치도.webp",
+   "label": "단지·동·호수 배치도",
+   "category": "단지"
+  },
+  {
+   "file": "이미지/02_C1블록_단지배치도.webp",
+   "label": "C1블록 단지배치도",
+   "category": "단지"
+  },
+  {
+   "file": "이미지/03_C1블록_동·호수_배치도.webp",
+   "label": "C1블록 동·호수 배치도",
+   "category": "단지"
+  },
+  {
+   "file": "이미지/04_위치도_(넥스티엘_II).webp",
+   "label": "위치도 (넥스티엘 II)",
+   "category": "단지"
+  },
+  {
+   "file": "이미지/05_C9-1_BL_타입_안내_(97OA·119OA·119OB).webp",
+   "label": "C9-1 BL 타입 안내 (97OA·119OA·119OB)",
+   "category": "타입 안내"
+  },
+  {
+   "file": "이미지/06_RC1_BL_84OA_타입_안내.webp",
+   "label": "RC1 BL 84OA 타입 안내",
+   "category": "타입 안내"
+  },
+  {
+   "file": "이미지/07_C1_BL_84OA·84OB_타입_안내.webp",
+   "label": "C1 BL 84OA·84OB 타입 안내",
+   "category": "타입 안내"
+  },
+  {
+   "file": "이미지/08_C1_BL_99OA·99OB_타입_안내.webp",
+   "label": "C1 BL 99OA·99OB 타입 안내",
+   "category": "타입 안내"
+  },
+  {
+   "file": "이미지/09_C1_BL_119OA·119OB_타입_안내.webp",
+   "label": "C1 BL 119OA·119OB 타입 안내",
+   "category": "타입 안내"
+  },
+  {
+   "file": "이미지/10_C1_BL_119OC·119OD_타입_안내.webp",
+   "label": "C1 BL 119OC·119OD 타입 안내",
+   "category": "타입 안내"
+  },
+  {
+   "file": "이미지/11_C1_BL_119OE_타입_안내.webp",
+   "label": "C1 BL 119OE 타입 안내",
+   "category": "타입 안내"
+  },
+  {
+   "file": "이미지/12_조감도.webp",
+   "label": "조감도",
+   "category": "단지"
+  },
+  {
+   "file": "이미지/13_실링팬_우물_매입등_시공_예시.webp",
+   "label": "실링팬 + 우물 매입등 시공 예시",
+   "category": "시공 예시"
+  },
+  {
+   "file": "이미지/14_우물천장_몰딩별_예시_(직각_라운드).webp",
+   "label": "우물천장 몰딩별 예시 (직각/라운드)",
+   "category": "시공 예시"
+  },
+  {
+   "file": "이미지/15_루씨에어_레이더_3_(실링팬).webp",
+   "label": "루씨에어 레이더 3 (실링팬)",
+   "category": "제품"
+  }
+ ],
+ "decks": [
+  {
+   "file": "ppt/nx2.pptx",
+   "label": "오피스텔 도면"
+  }
+ ]
+}

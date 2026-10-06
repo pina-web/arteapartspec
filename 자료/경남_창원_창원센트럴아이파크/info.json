@@ -1,0 +1,360 @@
+{
+ "name": "창원센트럴아이파크",
+ "notice": "건설사 조명 옵션 없음 · 조명 옵션이 아닌 세대는 T5 조명 한 줄만 되어 있다고 함",
+ "facts": [
+  {
+   "label": "총 세대수",
+   "value": "1,509세대"
+  },
+  {
+   "label": "타입",
+   "value": "59A 325 · 59B 115 · 59C 96 · 72A 395 · 72B 122 · 84A 277 · 84B 121 · 103 58"
+  },
+  {
+   "label": "자료",
+   "value": "아르떼 제공 2026.06.24"
+  }
+ ],
+ "features": [
+  {
+   "title": "특이사항",
+   "text": "건설사 조명 옵션 없음\n조명 옵션 아닌 세대는 T5 조명 한 줄이 되어 있다고 함\n마녀창 커튼업체 소개 시 매입등 2개 서비스 (해당 세대 2곳 — 이미지 탭 참고)"
+  },
+  {
+   "title": "시공 안내",
+   "text": "스위치 연결을 위해 별도 타공이 필요할 수 있으며, 공스피커로 마감될 수도 있음\n욕실 휴젠트 여부는 기사님이 현장에서 파악해 센서 위치 적용\n우물은 직각·라운드 두 가지 중 선택 가능 — 라운드 우물은 추가금 발생\n우물천장 간접조명 및 커튼박스는 별도 추가\n스위치: 전자식스위치 + 리모컨 / 침실 무선리모컨 1구(3채널)"
+  },
+  {
+   "title": "실링팬 (루씨에어 레이더 3)",
+   "text": "색상: 화이트 / 규격: 가로 132cm × 높이 19cm\n실내 온도 불균형 해소 → 냉난방비 절감\n최고 6단계 작동 시 36.4dB 저소음\n시공 구성: 설치 + 보강 + 우물 천장 안 실크 도배, 우물조명 2줄(전구색 + 주백색)\n우물천장 안 매입등: 3인치 주백색 확산형"
+  },
+  {
+   "title": "우물천장 몰딩 옵션",
+   "text": "직각 목공몰딩 / 주백 + 전구 이중조명\n직각 목공 무몰딩 도배 / 주백 + 전구 이중조명\n라운드 목공몰딩 / 주백 + 전구 이중조명\n라운드 목공 무몰딩 도배 / 주백 + 전구 이중조명"
+  }
+ ],
+ "types": [
+  {
+   "name": "59A",
+   "households": 325,
+   "plans": [
+    {
+     "file": "평면도/59A_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 1
+    },
+    {
+     "file": "평면도/59A_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 2
+    },
+    {
+     "file": "평면도/59A_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 3
+    }
+   ]
+  },
+  {
+   "name": "59B",
+   "households": 115,
+   "plans": [
+    {
+     "file": "평면도/59B_01_간접A_간접센서_SET_①.webp",
+     "label": "간접A / 간접센서 SET ①",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 4
+    },
+    {
+     "file": "평면도/59B_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 5
+    },
+    {
+     "file": "평면도/59B_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 6
+    },
+    {
+     "file": "평면도/59B_04_간접A_간접센서_SET_②.webp",
+     "label": "간접A / 간접센서 SET ②",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 7
+    },
+    {
+     "file": "평면도/59B_05_간접A_간접센서_SET_③.webp",
+     "label": "간접A / 간접센서 SET ③",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 8
+    }
+   ]
+  },
+  {
+   "name": "59C",
+   "households": 96,
+   "plans": [
+    {
+     "file": "평면도/59C_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 9
+    },
+    {
+     "file": "평면도/59C_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 10
+    },
+    {
+     "file": "평면도/59C_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 11
+    }
+   ]
+  },
+  {
+   "name": "72A",
+   "households": 395,
+   "plans": [
+    {
+     "file": "평면도/72A_01_간접A_간접센서_SET_①.webp",
+     "label": "간접A / 간접센서 SET ①",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 12
+    },
+    {
+     "file": "평면도/72A_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 13
+    },
+    {
+     "file": "평면도/72A_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 14
+    },
+    {
+     "file": "평면도/72A_04_간접A_간접센서_SET_②.webp",
+     "label": "간접A / 간접센서 SET ②",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 15
+    }
+   ]
+  },
+  {
+   "name": "72B",
+   "households": 122,
+   "plans": [
+    {
+     "file": "평면도/72B_01_간접A_간접센서_SET_①.webp",
+     "label": "간접A / 간접센서 SET ①",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 16
+    },
+    {
+     "file": "평면도/72B_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 17
+    },
+    {
+     "file": "평면도/72B_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 18
+    },
+    {
+     "file": "평면도/72B_04_간접A_간접센서_SET_②.webp",
+     "label": "간접A / 간접센서 SET ②",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 19
+    }
+   ]
+  },
+  {
+   "name": "84A",
+   "households": 277,
+   "plans": [
+    {
+     "file": "평면도/84A_01_간접A_간접센서_SET_①.webp",
+     "label": "간접A / 간접센서 SET ①",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 20
+    },
+    {
+     "file": "평면도/84A_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 21
+    },
+    {
+     "file": "평면도/84A_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 22
+    },
+    {
+     "file": "평면도/84A_04_간접A_간접센서_SET_②.webp",
+     "label": "간접A / 간접센서 SET ②",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 23
+    },
+    {
+     "file": "평면도/84A_05_간접A_간접센서_SET_③.webp",
+     "label": "간접A / 간접센서 SET ③",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 24
+    },
+    {
+     "file": "평면도/84A_06_간접A_간접센서_SET_④.webp",
+     "label": "간접A / 간접센서 SET ④",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 25
+    }
+   ]
+  },
+  {
+   "name": "84B",
+   "households": 121,
+   "plans": [
+    {
+     "file": "평면도/84B_01_간접A_간접센서_SET_①.webp",
+     "label": "간접A / 간접센서 SET ①",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 26
+    },
+    {
+     "file": "평면도/84B_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 27
+    },
+    {
+     "file": "평면도/84B_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 28
+    },
+    {
+     "file": "평면도/84B_04_간접A_간접센서_SET_②.webp",
+     "label": "간접A / 간접센서 SET ②",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 29
+    }
+   ]
+  },
+  {
+   "name": "103",
+   "households": 58,
+   "plans": [
+    {
+     "file": "평면도/103_01_간접A_간접센서_SET_①.webp",
+     "label": "간접A / 간접센서 SET ①",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 30
+    },
+    {
+     "file": "평면도/103_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 31
+    },
+    {
+     "file": "평면도/103_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 32
+    },
+    {
+     "file": "평면도/103_04_간접A_간접센서_SET_②.webp",
+     "label": "간접A / 간접센서 SET ②",
+     "group": "기본 스펙",
+     "ppt": "ppt/nx4.pptx",
+     "slide": 33
+    }
+   ]
+  }
+ ],
+ "images": [
+  {
+   "file": "이미지/01_단지배치도.webp",
+   "label": "단지배치도",
+   "category": "단지"
+  },
+  {
+   "file": "이미지/02_동·호수_배치도.webp",
+   "label": "동·호수 배치도",
+   "category": "단지"
+  },
+  {
+   "file": "이미지/03_조명_옵션세대_옵션_아닌_세대_비교.webp",
+   "label": "조명 옵션세대 / 옵션 아닌 세대 비교",
+   "category": "세대 사진"
+  },
+  {
+   "file": "이미지/04_특이사항_·_커튼업체_서비스.webp",
+   "label": "특이사항 · 커튼업체 서비스",
+   "category": "행사·공지"
+  },
+  {
+   "file": "이미지/05_실링팬_우물_매입등_시공_예시.webp",
+   "label": "실링팬 + 우물 매입등 시공 예시",
+   "category": "시공 예시"
+  },
+  {
+   "file": "이미지/06_우물천장_몰딩별_예시_(직각_라운드).webp",
+   "label": "우물천장 몰딩별 예시 (직각/라운드)",
+   "category": "시공 예시"
+  },
+  {
+   "file": "이미지/07_루씨에어_레이더_3_(실링팬).webp",
+   "label": "루씨에어 레이더 3 (실링팬)",
+   "category": "제품"
+  }
+ ],
+ "decks": [
+  {
+   "file": "ppt/nx4.pptx",
+   "label": "기본 스펙 도면"
+  }
+ ]
+}

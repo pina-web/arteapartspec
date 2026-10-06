@@ -1,0 +1,574 @@
+{
+ "name": "강릉롯데캐슬시그니처",
+ "notice": "조명 옵션세대는 아트월·복도에 라인조명이 있음 → 매입등 3개는 냉장고장 앞으로, 복도 매입등 2개는 맞은편으로 위치 이동",
+ "facts": [
+  {
+   "label": "총 세대수",
+   "value": "1,305세대"
+  },
+  {
+   "label": "타입",
+   "value": "14종 (84A 540 · 84B 245 · 84C 246 외)"
+  },
+  {
+   "label": "자료",
+   "value": "아르떼 제공 2024.10.08 (견도용)"
+  }
+ ],
+ "features": [
+  {
+   "title": "특이사항 (조명 옵션세대)",
+   "text": "건설사 조명 옵션세대일 경우\n- 아트월에 라인조명이 되어 있어 매입등 3개를 냉장고장 앞으로 이동\n- 복도에도 라인조명이 되어 있어 매입등 2개를 맞은편으로 위치 이동\n견적서를 보고 조명 옵션세대인지 확인할 것 (84B 도면: ‘조명옵션세대 맞나 확인 필요’ 표기)"
+  },
+  {
+   "title": "93A 실측 메모",
+   "text": "거실등 스위치 1 / 예비 1 / 복도\n가운데 예비 스위치는 옵션이 안 된 세대는 배선 자체가 없어 사용 불가\n옵션 세대에 한해 실링팬 배선 시 건설사 스위치로 아트월·쇼파월 2회로 배선 가능\n안방 스위치 2개 (메인, 간접)\n안방 화장실 조명 2, 환풍기 1 / 펜트리 1\n주방은 메인 스위치 1개로 전부 켜짐 (주방 매입등 + 식탁등 같이 켜짐)"
+  },
+  {
+   "title": "건설사 조명 관련 유상옵션 (마감표 요약)",
+   "text": "주방 디자인 우물천장 (시트판넬 + 간접조명) — 84A(93A)·84B(93B)·T-135·T-137, 주방 장식장 옵션 선택 시\n거실/복도 단천정, 거실/복도 시트판넬 — 거실/복도 마감 옵션 선택 시, 타입별 적용부위 상이\n거실 디자인 우물천장 — 84C(94)·T-136, 거실/복도 마감 옵션 선택 시\n거실 간접조명 우물천장 — 84A(93A)·84B(93B)·T-135·T-137, 거실/복도 마감 옵션 선택 시\n천정 몰딩·우물천정 몰딩: 기본 (PVC 몰딩 위 화이트 시트)\n건설사 우물 안 조명은 T5 (현장 사진 참고)\n자세한 표는 이미지 탭 ‘건설사 마감표’ 참고"
+  },
+  {
+   "title": "타입 명칭",
+   "text": "전용면적 기준: 84A=93A 계열, 84B=93B, 84C=94 / 펜트하우스 P-140·P-185A·P-185B / 테라스 T-135·T-136·T-137\n도면 제목의 ‘83B’는 93B 오기 (도면 면적 표기 93B㎡)"
+  },
+  {
+   "title": "시공 안내",
+   "text": "스위치 연결을 위해 별도 타공이 필요할 수 있으며, 공스피커로 마감될 수도 있음\n욕실 휴젠트 여부는 기사님이 현장에서 파악해 센서 위치 적용\n우물은 직각·라운드 두 가지 중 선택 가능 — 라운드 우물은 추가금 발생\n우물천장 간접조명 및 커튼박스는 별도 추가\n스위치: 전자식스위치 + 리모컨 / 침실 무선리모컨 1구(3채널)"
+  },
+  {
+   "title": "실링팬 (루씨에어 레이더 3)",
+   "text": "색상: 화이트 / 규격: 가로 132cm × 높이 19cm\n실내 온도 불균형 해소 → 냉난방비 절감\n최고 6단계 작동 시 36.4dB 저소음\n시공 구성: 설치 + 보강 + 우물 천장 안 실크 도배, 우물조명 2줄(전구색 + 주백색)\n우물천장 안 매입등: 3인치 주백색 확산형"
+  },
+  {
+   "title": "우물천장 몰딩 옵션",
+   "text": "직각 목공몰딩 / 주백 + 전구 이중조명\n직각 목공 무몰딩 도배 / 주백 + 전구 이중조명\n라운드 목공몰딩 / 주백 + 전구 이중조명\n라운드 목공 무몰딩 도배 / 주백 + 전구 이중조명"
+  }
+ ],
+ "types": [
+  {
+   "name": "84A",
+   "households": 540,
+   "plans": [
+    {
+     "file": "평면도/84A_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 1
+    },
+    {
+     "file": "평면도/84A_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 2
+    },
+    {
+     "file": "평면도/84A_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 3
+    }
+   ]
+  },
+  {
+   "name": "84B",
+   "households": 245,
+   "plans": [
+    {
+     "file": "평면도/84B_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 4
+    },
+    {
+     "file": "평면도/84B_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 5
+    },
+    {
+     "file": "평면도/84B_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 6
+    }
+   ]
+  },
+  {
+   "name": "84C",
+   "households": 246,
+   "plans": [
+    {
+     "file": "평면도/84C_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 7
+    },
+    {
+     "file": "평면도/84C_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 8
+    },
+    {
+     "file": "평면도/84C_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 9
+    }
+   ]
+  },
+  {
+   "name": "93A",
+   "households": 21,
+   "plans": [
+    {
+     "file": "평면도/93A_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 10
+    },
+    {
+     "file": "평면도/93A_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 11
+    },
+    {
+     "file": "평면도/93A_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 12
+    }
+   ]
+  },
+  {
+   "name": "93B",
+   "households": 12,
+   "plans": [
+    {
+     "file": "평면도/93B_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 13
+    },
+    {
+     "file": "평면도/93B_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 14
+    },
+    {
+     "file": "평면도/93B_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 15
+    }
+   ]
+  },
+  {
+   "name": "94",
+   "households": 6,
+   "plans": [
+    {
+     "file": "평면도/94_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 16
+    },
+    {
+     "file": "평면도/94_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 17
+    },
+    {
+     "file": "평면도/94_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 18
+    }
+   ]
+  },
+  {
+   "name": "114A",
+   "households": 166,
+   "plans": [
+    {
+     "file": "평면도/114A_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 19
+    },
+    {
+     "file": "평면도/114A_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 20
+    },
+    {
+     "file": "평면도/114A_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 21
+    }
+   ]
+  },
+  {
+   "name": "114B",
+   "households": 56,
+   "plans": [
+    {
+     "file": "평면도/114B_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 22
+    },
+    {
+     "file": "평면도/114B_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 23
+    },
+    {
+     "file": "평면도/114B_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 24
+    }
+   ]
+  },
+  {
+   "name": "135A",
+   "households": 2,
+   "plans": [
+    {
+     "file": "평면도/135A_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 25
+    },
+    {
+     "file": "평면도/135A_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 26
+    },
+    {
+     "file": "평면도/135A_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 27
+    }
+   ]
+  },
+  {
+   "name": "136B",
+   "households": 2,
+   "plans": [
+    {
+     "file": "평면도/136B_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 28
+    },
+    {
+     "file": "평면도/136B_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 29
+    },
+    {
+     "file": "평면도/136B_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 30
+    }
+   ]
+  },
+  {
+   "name": "137",
+   "households": 1,
+   "plans": [
+    {
+     "file": "평면도/137_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 31
+    },
+    {
+     "file": "평면도/137_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 32
+    },
+    {
+     "file": "평면도/137_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 33
+    }
+   ]
+  },
+  {
+   "name": "140",
+   "households": 4,
+   "plans": [
+    {
+     "file": "평면도/140_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 34
+    },
+    {
+     "file": "평면도/140_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 35
+    },
+    {
+     "file": "평면도/140_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 36
+    }
+   ]
+  },
+  {
+   "name": "185A",
+   "households": 2,
+   "plans": [
+    {
+     "file": "평면도/185A_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 37
+    },
+    {
+     "file": "평면도/185A_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 38
+    },
+    {
+     "file": "평면도/185A_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 39
+    }
+   ]
+  },
+  {
+   "name": "185B",
+   "households": 2,
+   "plans": [
+    {
+     "file": "평면도/185B_01_간접A_간접센서_SET.webp",
+     "label": "간접A / 간접센서 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 40
+    },
+    {
+     "file": "평면도/185B_02_간접_프리미엄_SET.webp",
+     "label": "간접 프리미엄 SET",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 41
+    },
+    {
+     "file": "평면도/185B_03_간접_프리미엄_SET_실링팬_우물두줄.webp",
+     "label": "간접 프리미엄 SET + 실링팬 우물두줄",
+     "group": "기본 스펙",
+     "ppt": "ppt/lt.pptx",
+     "slide": 42
+    }
+   ]
+  }
+ ],
+ "images": [
+  {
+   "file": "이미지/01_단지배치도.webp",
+   "label": "단지배치도",
+   "category": "단지"
+  },
+  {
+   "file": "이미지/02_동·호수_배치도.webp",
+   "label": "동·호수 배치도",
+   "category": "단지"
+  },
+  {
+   "file": "이미지/03_93A_실측_사진_—_거실·안방_스위치.webp",
+   "label": "93A 실측 사진 — 거실·안방 스위치",
+   "category": "세대 사진",
+   "type": "93A"
+  },
+  {
+   "file": "이미지/04_93A_실측_사진_—_화장실·주방_스위치.webp",
+   "label": "93A 실측 사진 — 화장실·주방 스위치",
+   "category": "세대 사진",
+   "type": "93A"
+  },
+  {
+   "file": "이미지/05_93A_실측_사진_—_현관·작은방_스위치.webp",
+   "label": "93A 실측 사진 — 현관·작은방 스위치",
+   "category": "세대 사진",
+   "type": "93A"
+  },
+  {
+   "file": "이미지/06_93A_실측_사진_—_거실_타일·주방.webp",
+   "label": "93A 실측 사진 — 거실 타일·주방",
+   "category": "세대 사진",
+   "type": "93A"
+  },
+  {
+   "file": "이미지/07_93A_실측_사진_—_주방_디테일.webp",
+   "label": "93A 실측 사진 — 주방 디테일",
+   "category": "세대 사진",
+   "type": "93A"
+  },
+  {
+   "file": "이미지/08_84A_현장사진.webp",
+   "label": "84A 현장사진",
+   "category": "세대 사진",
+   "type": "84A"
+  },
+  {
+   "file": "이미지/09_84B_실측사진_1.webp",
+   "label": "84B 실측사진 1",
+   "category": "세대 사진",
+   "type": "84B"
+  },
+  {
+   "file": "이미지/10_84B_실측사진_2.webp",
+   "label": "84B 실측사진 2",
+   "category": "세대 사진",
+   "type": "84B"
+  },
+  {
+   "file": "이미지/11_84B_실측사진_3.webp",
+   "label": "84B 실측사진 3",
+   "category": "세대 사진",
+   "type": "84B"
+  },
+  {
+   "file": "이미지/12_건설사_우물_안_T5_조명.webp",
+   "label": "건설사 우물 안 T5 조명",
+   "category": "세대 사진"
+  },
+  {
+   "file": "이미지/13_84C_실측사진_1.webp",
+   "label": "84C 실측사진 1",
+   "category": "세대 사진",
+   "type": "84C"
+  },
+  {
+   "file": "이미지/14_84C_실측사진_2.webp",
+   "label": "84C 실측사진 2",
+   "category": "세대 사진",
+   "type": "84C"
+  },
+  {
+   "file": "이미지/15_84C_94_세대_사진.webp",
+   "label": "84C/94 세대 사진",
+   "category": "세대 사진",
+   "type": "84C"
+  },
+  {
+   "file": "이미지/16_114_세대_사진.webp",
+   "label": "114 세대 사진",
+   "category": "세대 사진",
+   "type": "114A"
+  },
+  {
+   "file": "이미지/17_건설사_마감표_84A·84B·84C·135~137_(1).webp",
+   "label": "건설사 마감표 84A·84B·84C·135~137 (1)",
+   "category": "건설사 마감표"
+  },
+  {
+   "file": "이미지/18_건설사_마감표_84A·84B·84C·135~137_(2).webp",
+   "label": "건설사 마감표 84A·84B·84C·135~137 (2)",
+   "category": "건설사 마감표"
+  },
+  {
+   "file": "이미지/19_건설사_마감표_84A·84B·84C·135~137_(3).webp",
+   "label": "건설사 마감표 84A·84B·84C·135~137 (3)",
+   "category": "건설사 마감표"
+  },
+  {
+   "file": "이미지/20_건설사_마감표_114A·114B·140·185_(1).webp",
+   "label": "건설사 마감표 114A·114B·140·185 (1)",
+   "category": "건설사 마감표"
+  },
+  {
+   "file": "이미지/21_건설사_마감표_114A·114B·140·185_(2).webp",
+   "label": "건설사 마감표 114A·114B·140·185 (2)",
+   "category": "건설사 마감표"
+  },
+  {
+   "file": "이미지/22_건설사_마감표_114A·114B·140·185_(3).webp",
+   "label": "건설사 마감표 114A·114B·140·185 (3)",
+   "category": "건설사 마감표"
+  },
+  {
+   "file": "이미지/23_실링팬_우물_매입등_시공_예시.webp",
+   "label": "실링팬 + 우물 매입등 시공 예시",
+   "category": "시공 예시"
+  },
+  {
+   "file": "이미지/24_우물천장_몰딩별_예시_(직각_라운드).webp",
+   "label": "우물천장 몰딩별 예시 (직각/라운드)",
+   "category": "시공 예시"
+  },
+  {
+   "file": "이미지/25_루씨에어_레이더_3_(실링팬).webp",
+   "label": "루씨에어 레이더 3 (실링팬)",
+   "category": "제품"
+  }
+ ],
+ "decks": [
+  {
+   "file": "ppt/lt.pptx",
+   "label": "기본 스펙 도면"
+  }
+ ]
+}
