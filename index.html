@@ -196,6 +196,7 @@ input,textarea,select{font:inherit;color:inherit}
 .fs.is-opt{border-color:#cdbdf3;background:#fbf9ff}
 .ck{display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--sub);white-space:nowrap;margin:2px 0 8px}
 .ck input{width:16px;height:16px;accent-color:#6b3fd4}
+body.ro #btnAddApt,body.ro #btnAddApt2,body.ro #btnAddImg,body.ro #btnAddType,body.ro #btnAptMenu,body.ro #btnTypeMenu,body.ro #fEdit,body.ro #drop{display:none!important}
 </style>
 </head>
 <body>
@@ -256,18 +257,21 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 <script>
 /* ===== 쉐어포인트 동기화 폴더를 직접 읽고 쓰는 저장소 계층 ===== */
 const FSOK='showDirectoryPicker' in window;
+const HTTPMODE=/^https?:$/.test(location.protocol);
 function idb(){return new Promise((res,rej)=>{const r=indexedDB.open('apt-lib-fs',1);r.onupgradeneeded=()=>r.result.createObjectStore('kv');r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)})}
 async function kvSet(k,v){try{const db=await idb();db.transaction('kv','readwrite').objectStore('kv').put(v,k)}catch(e){}}
 async function kvGet(k){try{const db=await idb();return await new Promise(r=>{const q=db.transaction('kv').objectStore('kv').get(k);q.onsuccess=()=>r(q.result);q.onerror=()=>r(null)})}catch(e){return null}}
 async function getDir(h,path,create){let d=h;for(const p of String(path).split('/').filter(Boolean))d=await d.getDirectoryHandle(p,{create:!!create});return d}
 async function readFileAt(path){
+  if(S.web){try{const r=await fetch(encodeURI(path),{cache:'default'});if(!r.ok)return null;return await r.blob()}catch(e){return null}}
   try{const parts=String(path).split('/');const nm=parts.pop();const d=await getDir(S.root,parts.join('/'),false);return await (await d.getFileHandle(nm)).getFile()}catch(e){return null}
 }
 async function writeFileAt(path,blob){
+  if(S.web){toast('웹 공개본은 보기 전용입니다. 자료를 고치려면 폴더 연결판에서 여세요.');return}
   const parts=String(path).split('/');const nm=parts.pop();const d=await getDir(S.root,parts.join('/'),true);
   const fh=await d.getFileHandle(nm,{create:true});const w=await fh.createWritable();await w.write(blob);await w.close();
 }
-async function removeFileAt(path){try{const parts=String(path).split('/');const nm=parts.pop();const d=await getDir(S.root,parts.join('/'),false);await d.removeEntry(nm)}catch(e){}}
+async function removeFileAt(path){if(S.web)return;try{const parts=String(path).split('/');const nm=parts.pop();const d=await getDir(S.root,parts.join('/'),false);await d.removeEntry(nm)}catch(e){}}
 async function readJSON(path){const f=await readFileAt(path);if(!f)return null;try{return JSON.parse(await f.text())}catch(e){return null}}
 async function writeJSON(path,obj){await writeFileAt(path,new Blob([JSON.stringify(obj,null,1)],{type:'application/json'}))}
 const aptPath=(a,rel)=>'자료/'+a.dir+(rel?'/'+rel:'');
@@ -295,7 +299,7 @@ function markDirty(){
   clearTimeout(saveT);saveT=setTimeout(()=>saveAll(a),700);
 }
 async function saveAll(a){
-  if(!S.root)return;
+  if(!S.root||S.web)return;
   saving=1;renderConn();
   try{
     if(a&&a.info)await writeJSON(aptPath(a,'info.json'),a.info);
@@ -316,12 +320,24 @@ async function useRoot(h){
   let p=await h.queryPermission({mode:'readwrite'});
   if(p!=='granted')p=await h.requestPermission({mode:'readwrite'});
   if(p!=='granted'){toast('폴더 권한이 필요합니다');return false}
+  S.web=false;document.body.classList.remove('ro');
   S.root=h;S.rootName=h.name;
   const idx=await readJSON('목록.json');
   if(!idx){S.apts=[];S.noIndex=true}
   else{S.noIndex=false;S.apts=idx.apts.map(x=>({...x}));S.updated=idx.updated||''}
   S.searchLoaded=false;S.search={};
   S.apts.forEach(x=>{openState[x.region]=true;if(S.apts.length<=60)openState[x.region+'/'+x.sub]=true});
+  S.cur=null;renderConn();renderTree();renderMain();
+  return true;
+}
+async function useWeb(){
+  S.web=true;S.root={web:true};S.rootName='깃허브 공개본';
+  const idx=await readJSON('목록.json');
+  if(!idx||!idx.apts){S.web=false;S.root=null;return false}
+  S.noIndex=false;S.apts=idx.apts.map(x=>({...x}));S.updated=idx.updated||'';
+  S.searchLoaded=false;S.search={};
+  S.apts.forEach(x=>{openState[x.region]=true;if(S.apts.length<=60)openState[x.region+'/'+x.sub]=true});
+  document.body.classList.add('ro');
   S.cur=null;renderConn();renderTree();renderMain();
   return true;
 }
@@ -351,7 +367,11 @@ addEventListener('beforeunload',e=>{if(S.dirty){e.preventDefault();e.returnValue
 /* ---------- status box ---------- */
 function renderConn(){
   const c=$('#conn');c.classList.toggle('dirty',!!S.dirty);
-  if(!S.root){c.innerHTML=`<span class="dot"></span><div style="flex:1;min-width:0">폴더 미연결<b>자료 폴더를 연결하세요</b></div><button class="btn sm pri" id="cBtn">연결</button>`;}
+  if(S.web){
+    const n=S.apts.length,nr=new Set(S.apts.map(a=>a.region)).size;
+    c.innerHTML=`<span class="dot on"></span><div style="flex:1;min-width:0">${nr}개 지역 · 아파트 ${n}곳 · 보기 전용<b>${esc(S.rootName)}</b></div>`+(FSOK?'<button class="btn sm" id="cBtn">폴더 연결</button>':'');
+  }
+  else if(!S.root){c.innerHTML=`<span class="dot"></span><div style="flex:1;min-width:0">폴더 미연결<b>자료 폴더를 연결하세요</b></div><button class="btn sm pri" id="cBtn">연결</button>`;}
   else{
     const n=S.apts.length,nr=new Set(S.apts.map(a=>a.region)).size;
     c.innerHTML=saving?`<span class="dot" style="background:#e0a100"></span><div style="flex:1;min-width:0">저장 중…<b>${esc(S.rootName)}</b></div>`
@@ -793,7 +813,7 @@ function askTarget(a,files){
   const setK=k=>{kind=k;segs.forEach(b=>b.classList.toggle('on',b.dataset.k===k));draw()};
   segs.forEach(b=>b.onclick=()=>setK(b.dataset.k));setK(kind);
 }
-function readyForAdd(){if(!S.root){toast('먼저 자료 폴더를 연결하세요');return false}if(!S.cur||!S.cur.info){toast('먼저 왼쪽에서 아파트를 고르세요');return false}return true}
+function readyForAdd(){if(S.web){toast('웹 공개본은 보기 전용입니다');return false}if(!S.root){toast('먼저 자료 폴더를 연결하세요');return false}if(!S.cur||!S.cur.info){toast('먼저 왼쪽에서 아파트를 고르세요');return false}return true}
 document.addEventListener('paste',e=>{
   if(e.target.closest('input,textarea')||$('#mo').classList.contains('on'))return;
   const fs=[...(e.clipboardData?.items||[])].filter(x=>x.type.startsWith('image/')).map(x=>x.getAsFile()).filter(Boolean);
@@ -828,6 +848,7 @@ $('.brand h1').onclick=goHome;$('.brand h1').style.cursor='pointer';$('.brand h1
 document.querySelector('.side-close').onclick=()=>$('#side').classList.remove('on');
 renderConn();renderTree();renderMain();
 (async()=>{
+  if(HTTPMODE&&await useWeb())return;
   if(!FSOK)return;
   const h=await kvGet('root');
   if(!h)return;
